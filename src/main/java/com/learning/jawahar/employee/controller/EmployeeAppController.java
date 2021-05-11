@@ -17,4 +17,11 @@ public class EmployeeAppController {
     public String sayHelloWithMessage(@PathVariable String message){
         return "Hello "+ message;
     }
+
+
+    @GetMapping("/hello/{message}/{name}")
+    public String sayHelloWithMessageAndName(@PathVariable String message, @PathVariable String name){
+        return "Hello "+ message + " "+ name;
+
+    }
 }
