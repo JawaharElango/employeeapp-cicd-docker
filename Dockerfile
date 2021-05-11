@@ -3,8 +3,10 @@
 
 FROM openjdk:11
 
-ADD ./target/employeeapp-2.4.5.jar /usr/src/employeeapp-2.4.5.jar
+EXPOSE 8080
 
-WORKDIR usr/src
+ADD target/employeeapp-2.4.5.jar employeeapp-2.4.5.jar
+
+#WORKDIR usr/src
 
 ENTRYPOINT ["java","-jar", "employeeapp-2.4.5.jar"]
