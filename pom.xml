@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.learning.jawahar</groupId>
 	<artifactId>employeeapp</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
 	<name>EmployeeApp</name>
 	<description>Demo project for Spring Boot with docker</description>
 	<properties>

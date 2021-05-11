@@ -3,8 +3,8 @@
 
 FROM openjdk:11
 
-ADD ./target/employeeapp-0.0.2-SNAPSHOT.jar /usr/src/employeeapp-0.0.2-SNAPSHOT.jar
+ADD ./target/employeeapp-2.4.5.jar /usr/src/employeeapp-2.4.5.jar
 
 WORKDIR usr/src
 
-ENTRYPOINT ["java","-jar", "employeeapp-0.0.2-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar", "employeeapp-2.4.5.jar"]
