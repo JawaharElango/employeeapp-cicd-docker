@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.learning.jawahar</groupId>
-	<artifactId>employeeapp</artifactId>
-	<name>EmployeeApp</name>
+	<artifactId>employeeapp-cicd-docker</artifactId>
+	<name>employeeapp-cicd-docker</name>
 	<description>Demo project for Spring Boot with docker</description>
 	<properties>
 		<java.version>11</java.version>
@@ -29,6 +29,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>employeeapp-cicd-docker</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

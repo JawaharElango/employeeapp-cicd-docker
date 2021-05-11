@@ -5,8 +5,8 @@ FROM openjdk:11
 
 EXPOSE 8080
 
-ADD target/employeeapp-2.4.5.jar employeeapp-2.4.5.jar
+ADD target/employeeapp-cicd-docker.jar employeeapp-cicd-docker.jar
 
 #WORKDIR usr/src
 
-ENTRYPOINT ["java","-jar", "employeeapp-2.4.5.jar"]
+ENTRYPOINT ["java","-jar", "employeeapp-cicd-docker.jar"]
