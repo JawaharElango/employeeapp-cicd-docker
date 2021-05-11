@@ -27,3 +27,4 @@ employeeapp-cicd-docker.iml
 mvnw
 mvnw.cmd
 target/
+.DS_Store
