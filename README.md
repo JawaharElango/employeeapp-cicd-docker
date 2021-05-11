@@ -2,7 +2,7 @@
  This is a sample application to push your application docker image to docker hub using Jenkins.
  
 #Steps: 
-Checkout this code to your local.
+Checkout this code to your local. <br>
 Create a dockerhub account here. https://hub.docker.com/signup
 Download local jenkins server war from here. https://www.jenkins.io/download/
 Once you have the war downloaded run the war from your terminal using "java -jar jenkins.war'
